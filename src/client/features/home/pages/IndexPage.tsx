@@ -1,7 +1,7 @@
 import { Navbar } from '@/components/Navbar';
 import { HeroSection } from '@/components/HeroSection';
 import { ComponentCard } from '@/components/ComponentCard';
-import { mockComponents, componentCategories } from '@/data/mock-components';
+import { mockComponents, componentCategories } from '@/client/features/catalog/data/mock-components';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Cpu, Sparkles, Shield, Truck, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';

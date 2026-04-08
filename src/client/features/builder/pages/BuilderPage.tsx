@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { ComponentCard } from '@/components/ComponentCard';
-import { mockComponents, componentCategories } from '@/data/mock-components';
+import { mockComponents, componentCategories } from '@/client/features/catalog/data/mock-components';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
