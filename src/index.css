@@ -1,67 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @layer base {
   :root {
-    --background: 222 47% 6%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 100%;
+    --foreground: 222 30% 16%;
 
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 30% 16%;
 
-    --popover: 222 47% 10%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 30% 16%;
 
-    --primary: 186 100% 50%;
-    --primary-foreground: 222 47% 6%;
+    --primary: 142 63% 42%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 30% 15%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 28% 95%;
+    --secondary-foreground: 222 30% 20%;
 
-    --muted: 222 30% 12%;
-    --muted-foreground: 215 20% 55%;
+    --muted: 210 24% 96%;
+    --muted-foreground: 215 14% 44%;
 
-    --accent: 32 100% 55%;
-    --accent-foreground: 222 47% 6%;
+    --accent: 158 58% 38%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 222 30% 18%;
-    --input: 222 30% 15%;
-    --ring: 186 100% 50%;
+    --border: 214 24% 88%;
+    --input: 214 26% 94%;
+    --ring: 142 63% 42%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --glow-primary: 0 0 20px hsl(186 100% 50% / 0.4);
-    --glow-accent: 0 0 20px hsl(32 100% 55% / 0.4);
-    --gradient-primary: linear-gradient(135deg, hsl(186 100% 50%) 0%, hsl(200 100% 60%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(32 100% 55%) 0%, hsl(45 100% 60%) 100%);
-    --gradient-dark: linear-gradient(180deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(222 47% 10% / 0.8) 0%, hsl(222 47% 6% / 0.9) 100%);
+    --glow-primary: 0 0 20px hsl(142 63% 42% / 0.22);
+    --glow-accent: 0 0 20px hsl(158 58% 38% / 0.2);
+    --gradient-primary: linear-gradient(135deg, hsl(142 63% 42%) 0%, hsl(168 55% 40%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(158 58% 38%) 0%, hsl(171 50% 39%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100% / 0.95) 0%, hsl(210 40% 98% / 0.95) 100%);
     
     /* Component colors */
-    --cpu: 186 100% 50%;
-    --gpu: 32 100% 55%;
-    --ram: 280 100% 60%;
-    --storage: 150 100% 45%;
-    --motherboard: 0 100% 60%;
-    --psu: 45 100% 50%;
-    --case: 220 100% 60%;
-    --cooling: 200 100% 55%;
+    --cpu: 142 63% 42%;
+    --gpu: 25 90% 56%;
+    --ram: 268 62% 58%;
+    --storage: 151 64% 39%;
+    --motherboard: 350 72% 55%;
+    --psu: 42 88% 52%;
+    --case: 223 68% 58%;
+    --cooling: 166 52% 42%;
 
-    --sidebar-background: 222 47% 8%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 186 100% 50%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 222 30% 15%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 222 30% 18%;
-    --sidebar-ring: 186 100% 50%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 30% 16%;
+    --sidebar-primary: 142 63% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 28% 95%;
+    --sidebar-accent-foreground: 222 30% 20%;
+    --sidebar-border: 214 24% 88%;
+    --sidebar-ring: 142 63% 42%;
   }
 }
 
@@ -102,9 +102,9 @@
   }
 
   .glass {
-    background: hsl(222 47% 8% / 0.7);
+    background: hsl(0 0% 100% / 0.86);
     backdrop-filter: blur(20px);
-    border: 1px solid hsl(222 30% 20% / 0.5);
+    border: 1px solid hsl(214 24% 86% / 0.9);
   }
 
   .text-gradient-primary {
@@ -170,14 +170,14 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(222 47% 8%);
+  background: hsl(210 24% 96%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(222 30% 25%);
+  background: hsl(214 20% 78%);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(186 100% 50%);
+  background: hsl(var(--primary));
 }

@@ -9,15 +9,15 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_20px_hsl(var(--primary)/0.4)]",
+        default: "bg-primary text-primary-foreground hover:bg-primary/92 shadow-[0_8px_20px_hsl(var(--primary)/0.25)]",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border border-primary/50 bg-transparent text-primary hover:bg-primary/10 hover:border-primary",
+        outline: "border border-border bg-white text-foreground hover:bg-secondary hover:border-primary/40",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-secondary hover:text-secondary-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        accent: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-[0_0_20px_hsl(var(--accent)/0.4)]",
-        hero: "bg-gradient-to-r from-primary to-[hsl(200,100%,60%)] text-primary-foreground font-bold uppercase tracking-wider hover:opacity-90 shadow-[0_0_30px_hsl(var(--primary)/0.5)] transform hover:scale-105",
-        glass: "bg-[hsl(222,47%,8%/0.7)] backdrop-blur-xl text-foreground hover:bg-secondary/50 border border-primary/20",
+        accent: "bg-accent text-accent-foreground hover:bg-accent/92 shadow-[0_8px_20px_hsl(var(--accent)/0.22)]",
+        hero: "bg-gradient-to-r from-primary to-[hsl(168,55%,40%)] text-primary-foreground font-bold uppercase tracking-wider hover:opacity-95 shadow-[0_12px_24px_hsl(var(--primary)/0.28)] transform hover:scale-105",
+        glass: "bg-white/80 backdrop-blur-xl text-foreground hover:bg-white border border-border",
         social: "bg-secondary border border-border text-foreground hover:bg-secondary/80 hover:border-primary/50",
       },
       size: {
